@@ -24,20 +24,10 @@ class Chatbox {
               message: "🎉 I am your virtual assistant🤖 here to help you. How can I assist you today?"
           });
           this.updateChatText(this.args.chatBox);
-      });
-  
-
-          
+      });   
     }
-    
-
     display() {
         const {openButton, chatBox, sendButton} = this.args;
-        // this.messages.push({
-        //     name: "Sam",
-        //     message:
-        //       "🌐🔧 Welcome to Andhra Teck League! 🔧🌐\n\nGet ready to unlock a world of innovation and excitement with us! 🚀🎉",
-        //   });
           this.updateChatText(chatBox);
 
         openButton.addEventListener('click', () => this.toggleState(chatBox))
@@ -81,7 +71,7 @@ class Chatbox {
     async sendMessageWithDelay(chatbox, message) {
       let responses = await this.getBotResponses(message); // Wait for the responses
       for (const response of responses) {
-          await this.delay(700); // Add a delay of 1000ms (1 second)
+          await this.delay(700); //delay of 1000ms (1 second)
 
           let msg2 = { name: 'Sam', message: response };
           this.messages.push(msg2);
@@ -137,7 +127,5 @@ class Chatbox {
     }
     
 }
-
-
 const chatbox = new Chatbox();
 chatbox.display();
