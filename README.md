@@ -1,4 +1,4 @@
-# ANDHRA-TECK-LEAGUE-CHATBOT# Andhra Tech League Chatbot
+# ANDHRA-TECK-LEAGUE-CHATBOT
 
 <p align="center">
   <img src="ATL%20view.png" alt="Chatbot View" width="350" height="400">
@@ -28,4 +28,4 @@ The Andhra Tech League (ATL) Chatbot is an interactive virtual assistant designe
 
  *Interactive Interface:* User-friendly menu-based interaction to easily navigate through FAQs and receive relevant information.
 
- *Efficient Support:* Provides quick and accurate assistance, enhancing the overall participant experience during the event.
+ *Efficient Support:* Provides quick and accurate assistance, enhancing the overall participant experience during the event.
